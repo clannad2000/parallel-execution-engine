@@ -8,7 +8,8 @@ import java.lang.annotation.Target;
 
 /**
  * Annotation used to capture names of methods marked as Parallelizable by clients
- *
+ * 使用java语言中的注解生成器生成代码
+ * https://blog.csdn.net/justxuemin/article/details/72804134
  */
 @Documented
 @Target(ElementType.METHOD)
